@@ -1,21 +1,15 @@
 <?php 
-use Medoo\Medoo;
+
 
 $biblioteca = new Biblioteca\Custom();
 $tabbelas = new Biblioteca\Tabelas();
 
-global $authGrifo, $eventos;
+global $database, $authGrifo, $eventos;
 
 $pj = $authGrifo['promotoria'];
 $id_user = $authGrifo['user'];
 
-$database = new Medoo([
-         'database_type' => 'mysql',
-         'database_name' => 'grifo',
-         'server' => 'localhost',
-         'username' => 'root',
-         'password' => ''
-     ]);
+
 
 $localizador = 'oficio';
 /**********************************************************************************/
