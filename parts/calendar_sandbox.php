@@ -36,10 +36,10 @@ $array = array(
             )
  );
 
-$evento =  $eventos->inserirEvento('promotoriadasaude@gmail.com',$array);
+//$evento =  $eventos->inserirEvento('promotoriadasaude@gmail.com',$array);
 
 echo '<pre>';
-var_dump($evento->id);
+var_dump($evento);
 echo '</pre>';
 
 
