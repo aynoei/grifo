@@ -4,6 +4,5 @@
 /logs/
 test.php
 # ignore all logs files
-test/*
-# don't ignore keep files
-!.keep
+teste/*
+!teste/.keep
