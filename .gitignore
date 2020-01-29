@@ -3,4 +3,7 @@
 /parts/calendar_sandbox.php
 /logs/
 test.php
-teste/*
+# ignore all logs files
+test/*
+# don't ignore keep files
+!.keep
