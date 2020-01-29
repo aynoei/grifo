@@ -6,7 +6,7 @@ error_reporting(0); ini_set('display_errors', 0);
 // If you installed via composer, just use this code to require autoloader on the top of your projects.
 include $_SERVER['DOCUMENT_ROOT'] . 'vendor/autoload.php';
 include $_SERVER['DOCUMENT_ROOT'] .  'grifo/functions.php'; $grifo = new Grifo();
-//include $_SERVER['DOCUMENT_ROOT'] . 'grifo/calendar.php'; $eventos = new EventosGoogle();
+include $_SERVER['DOCUMENT_ROOT'] . 'grifo/calendar.php'; $eventos = new EventosGoogle();
 include_once($_SERVER['DOCUMENT_ROOT'] . 'grifo/parts/database.php'); $database = database();
 //include $_SERVER['DOCUMENT_ROOT'] . '/grifo/classes/formulario.php'; $formulario = new Formulario();
 

@@ -5,8 +5,7 @@ include($_SERVER['DOCUMENT_ROOT'] . '/grifo/parts/includes.php');
 
 echo $eventos->lerEventos('promotoriadasaude@gmail.com',$_GET['start'],$_GET['end']);
 
-/*
-echo '<pre>';
+
+/*echo '<pre>';
 var_dump($eventos->lerEventos('promotoriadasaude@gmail.com','array'));
-echo '</pre>';
-*/
+echo '</pre>';*/
