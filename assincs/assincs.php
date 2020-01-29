@@ -2,20 +2,11 @@
 
 include($_SERVER['DOCUMENT_ROOT'] . 'grifo/parts/includes.php'); 
 
-use Medoo\Medoo;
-
 $biblioteca = new Biblioteca\Custom();
 
-   $database = new Medoo([
-         'database_type' => 'mysql',
-         'database_name' => 'grifo',
-         'server' => 'localhost',
-         'username' => 'root',
-         'password' => ''
-     ]);
+global $database;
 
 $post = $_POST;
-
 
 
 switch($post['tipo']){

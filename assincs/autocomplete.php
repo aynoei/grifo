@@ -6,13 +6,7 @@ use Medoo\Medoo;
 
 $biblioteca = new Biblioteca\Custom();
 
-   $database = new Medoo([
-         'database_type' => 'mysql',
-         'database_name' => 'grifo',
-         'server' => 'localhost',
-         'username' => 'root',
-         'password' => ''
-     ]);
+global $database;
 
 $get = $_GET;
 
