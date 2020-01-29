@@ -17,15 +17,9 @@ class Grifo{
 
 public function __construct(){
 
-
+global $database;
      // Initialize
-   $this->database = new Medoo([
-         'database_type' => 'mysql',
-         'database_name' => 'grifo',
-         'server' => 'localhost',
-         'username' => 'root',
-         'password' => ''
-     ]);
+    $this->database = $database;
  
     $this->biblioteca = new Biblioteca\Custom();
  
